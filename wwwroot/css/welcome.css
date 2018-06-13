@@ -1,0 +1,10 @@
+#name{
+    display: inline-block;
+}
+#shop{
+    display: inline-block;
+    vertical-align: top;
+}
+#body{
+    display: inline-block;
+}

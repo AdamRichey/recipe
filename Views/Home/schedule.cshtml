@@ -1,0 +1,38 @@
+
+
+<div class="panel panel-default">
+  <div class="panel-heading">Schedule</div>
+    <ul>
+      <li><input type="checkbox">Potatos</input></li>
+      <li><input type="checkbox">Basil</input></li>
+      <li><input type="checkbox">Rice</input></li>
+    </ul>
+    <button>Have It</button>
+<div class="panel-body"></div>
+<div class="panel panel-default">
+  <div class="panel-heading">Schedule Your Shopping</div>
+  <div class="panel-body">
+
+      <p>Favorites:</p>
+      <select class="selectpicker">
+        <option selected disabled>Please Select</option>
+      @{
+        foreach(var favorite in ViewBag.favorites){
+          <option name ="@favorite.Recipe.id">@favorite.Recipe.Name</option>
+        }
+      }
+      </select>
+      <a href = "/sadd">Add</a>
+      <p>Other Recipes:</p>
+      <select class="selectpicker">
+        <option selected disabled>Please Select</option>
+      @{
+        foreach(var recipe in ViewBag.recipes){
+          <option name = "@recipe.id">@recipe.Name</option>
+        }
+      }
+      </select>
+      <a href = "/sadd">Add</a>
+  </div>
+</div>
+

@@ -1,0 +1,34 @@
+@using Plate.Models
+
+<div class="panel panel-default">
+    <div class="panel-heading">All Recipes</div>
+    <div class="panel-body">
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Author</th>
+                <th>Date Added</th>
+                <th>Favorited</th>
+                <th>Action</th>
+            </tr>
+            </thead>
+            <tbody>
+                    @{
+                        foreach(var recipe in @ViewBag.recipes)
+                        {
+                            <tr>
+                                <td><a href="recipe/@recipe.id">@recipe.Name</a></td>
+                                <td>@recipe.Person.First</td>
+                                <td>@recipe.Start.ToString("MM/dd/yyyy")</td>
+                                <td></td>
+                                <form action='favorites/add/@recipe.id' method='post'>
+                                <td><button>Add to Favorites!</button></td>
+                                </form>
+                            </tr>                        
+                        }
+                    } 
+            </tbody>
+        </table>
+    </div>
+</div>

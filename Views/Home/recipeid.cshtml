@@ -1,0 +1,45 @@
+<link rel="stylesheet" href="~/css/recipeid.css"/>
+<div class="panel panel-default">
+<div class="panel-heading">
+    <h4>By: </h4>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-T_Q9-a4yveIMnxlWJQNUjHu9vw_yL_I0qXkj2BeEAyn3ePUyjg" alt="Profile Pic" class="img-thumbnail">
+    <div id="Name">
+        <h2>@ViewBag.Recipe.Name</h2>
+        <h4>@ViewBag.Recipe.Description</h4>
+        </div>
+        <div name="rating">
+            <p>&star;&star;&star;&star;&star;</p>
+        </div>
+</div>
+<div class="panel-body">
+    <div class="container">
+        <ul>
+            @{
+                foreach(var ingredient in @ViewBag.Ingredient){
+                    <li>@ingredient.Amount @ingredient.Name   (@ingredient.Comment) </li>
+                }
+            }
+        </ul>
+    <h3>Directions:</h3>
+    <div class="panel panel-default">
+    <div class="panel-body">@ViewBag.Recipe.Directions</div>
+    </div>
+
+<label for="exampleFormControlTextarea1">Comment</label>
+<form action="/comment/@ViewBag.Recipe.id" method ="post">
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Add your comment here" name="comment"></textarea>
+    <Button>Add</Button>
+</form>
+    <h3>Comments:</h3>
+
+            @{
+                foreach(var comment in @ViewBag.comment){
+                    <div class="panel panel-default">
+                    <div class="panel-heading">@comment.Person.Username</div>
+                    <div class="panel-body">@comment.Comment</div>
+                    </div>
+                }
+            }
+
+
+

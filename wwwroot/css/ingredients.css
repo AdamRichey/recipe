@@ -1,0 +1,34 @@
+h2{
+    display: inline-block;
+    color:white;
+}
+#right{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 100px;
+}
+#left{
+    display: inline-block;
+    padding-left: 50px;
+}
+.panel-default{
+    width: 500px;
+    height: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+button{
+	border : solid 1px #000000;
+	border-radius : 3px;
+	font-size : 17px;
+	color : #ffffff;
+	padding : 1px 17px;
+	background : #5f6166;
+	background : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5f6166), color-stop(100%,#00060a));
+	background : -moz-linear-gradient(top, #5f6166 0%, #00060a 100%);
+	background : -webkit-linear-gradient(top, #5f6166 0%, #00060a 100%);
+	background : -o-linear-gradient(top, #5f6166 0%, #00060a 100%);
+	background : -ms-linear-gradient(top, #5f6166 0%, #00060a 100%);
+	background : linear-gradient(top, #5f6166 0%, #00060a 100%);
+	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#5f6166', endColorstr='#00060a',GradientType=0 );
+}

@@ -1,0 +1,21 @@
+Body{
+    background-image: url("https://static9.depositphotos.com/1113140/1105/i/950/depositphotos_11058932-stock-photo-white-wood-background.jpg");
+}
+#wrapper{
+    height: auto;
+    width:auto;
+    margin: 25px 25px 25px 25px;
+    background-color: #7b898a;
+}
+#name{
+    margin: 10px 10px 10px 10px;
+}
+#name h2{
+    color:white;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px 15px 15px 15px;
+}
+#name img{
+    display: inline-block;
+}

@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="~/css/connect.css"/>
+<div class="panel panel-default">
+  <div class="panel-heading">All Users</div>
+  <div class="panel-body">
+    <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>Username</th>
+                <th>Recipes</th>
+                <th>Favorites</th>
+                <th>Action</th>
+            </tr>
+            </thead>
+            <tbody>
+                    @{
+                        foreach(var person in @ViewBag.person)
+                        {
+                            <tr>
+                                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR36WcglH-j-VtcN7b-lJ7NucPjGGFfhw_35MG0VDAk0vQl_wtC" alt="Profile Pic" class="img-thumbnail"><a href="#">  @person.Username</a></td>
+                                <td>@person.Recipes</td>
+                                <td>2</td>
+                                <td><a>Watch This Chef</a></td>
+                            </tr>                        
+                        }
+                    } 
+            </tbody>
+        </table>      
+  </div>
+</div>
+
+    

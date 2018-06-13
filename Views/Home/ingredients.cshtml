@@ -1,0 +1,62 @@
+<link rel="stylesheet" href="~/css/ingredients.css"/>
+
+<div id="name">
+    <h2>Add Ingredients</h2>
+    <img src="http://www.trbimg.com/img-5a3d3316/turbine/ct-edit-amazon-chicago-rank-edit-20171206" Height=10% width=10% class="img-rounded" alt="Cinque Terre">
+</div>
+
+<div id="left">
+    <div class="panel panel-default">
+    <div class="panel-heading">Add Ingredient</div>
+    <div class="panel-body">
+        <form action="/vingredients" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+            <input type="text" class="form-control" name="iname">
+        </div>
+        <div class="form-group">
+            <label for="Amount">Amount:</label>
+            <input type="text" class="form-control" name="amount">
+        </div>
+        <div class="form-group">
+            <label for="Amount">Comment:</label>
+            <input type="text" class="form-control" placeholder="Optional" name="comment">
+        </div>
+        <button>Add</button>
+        </form>
+    </div>
+    </div>
+</div>
+<div id="right">
+    <div class="panel panel-default">
+    <div class="panel-heading">Your New Recipe:</div>
+    <div class="panel-body">
+        <h3>@ViewBag.recipename</h3>
+        <h4>@ViewBag.recipedescription</h4>
+        <form action='directions' method='post'>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Amount</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+            @{
+                foreach(var ingredient in @ViewBag.ingredient)
+                {
+                    <tr>
+                        <td>@ingredient.Name</td>
+                        <td>@ingredient.Amount</td>
+                        <td><a href="iedit">Edit/</a><a href="idelete">Delete</a></td>
+                    </tr>
+                }
+            }                
+            </tbody>
+        </table>
+            <button>Next</button>
+        </form>
+    </div>
+    </div>
+</div>

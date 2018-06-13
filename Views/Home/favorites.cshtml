@@ -1,0 +1,16 @@
+<div class="panel panel-default">
+  <div class="panel-heading">Your Favorites</div>
+  <div class="panel-body">
+    <div class="list-group">
+    @{
+      foreach(var favorite in @ViewBag.favorites){
+          <a class="list-group-item" href="recipe/@favorite.Recipe.id">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR36WcglH-j-VtcN7b-lJ7NucPjGGFfhw_35MG0VDAk0vQl_wtC" alt="Profile Pic" class="img-thumbnail">
+            @favorite.Recipe.Name <p>By: @favorite.Person.Username</p>
+          </a>
+          <a href="/fdelete/@favorite.id">Remove From Favorites</a>
+      }
+    }
+    </div>
+  </div>
+</div>
