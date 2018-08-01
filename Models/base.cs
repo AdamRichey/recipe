@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using System.Collections.Generic;
 
-namespace Plate.Models
+namespace Portfolio.Models
 {  
     public abstract class BaseEntity{
         [Key]

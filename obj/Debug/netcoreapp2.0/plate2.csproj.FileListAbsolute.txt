@@ -53,3 +53,14 @@ C:\Users\Adam\Desktop\Coding\C##\Entity\Recipes\obj\Debug\netcoreapp2.0\plate2.A
 C:\Users\Adam\Desktop\Coding\C##\Entity\Recipes\obj\Debug\netcoreapp2.0\plate2.AssemblyInfo.cs
 C:\Users\Adam\Desktop\Coding\C##\Entity\Recipes\obj\Debug\netcoreapp2.0\plate2.dll
 C:\Users\Adam\Desktop\Coding\C##\Entity\Recipes\obj\Debug\netcoreapp2.0\plate2.pdb
+C:\Users\USER\Desktop\Recipes\bin\Debug\netcoreapp2.0\plate2.deps.json
+C:\Users\USER\Desktop\Recipes\bin\Debug\netcoreapp2.0\plate2.runtimeconfig.json
+C:\Users\USER\Desktop\Recipes\bin\Debug\netcoreapp2.0\plate2.runtimeconfig.dev.json
+C:\Users\USER\Desktop\Recipes\bin\Debug\netcoreapp2.0\plate2.dll
+C:\Users\USER\Desktop\Recipes\bin\Debug\netcoreapp2.0\plate2.pdb
+C:\Users\USER\Desktop\Recipes\obj\Debug\netcoreapp2.0\plate2.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\Recipes\obj\Debug\netcoreapp2.0\plate2.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Recipes\obj\Debug\netcoreapp2.0\plate2.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Recipes\obj\Debug\netcoreapp2.0\plate2.AssemblyInfo.cs
+C:\Users\USER\Desktop\Recipes\obj\Debug\netcoreapp2.0\plate2.dll
+C:\Users\USER\Desktop\Recipes\obj\Debug\netcoreapp2.0\plate2.pdb

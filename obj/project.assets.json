@@ -12839,23 +12839,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Adam\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\USER\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Adam\\Desktop\\Coding\\C##\\Entity\\Recipes\\plate2.csproj",
-      "projectName": "plate2",
-      "projectPath": "C:\\Users\\Adam\\Desktop\\Coding\\C##\\Entity\\Recipes\\plate2.csproj",
-      "packagesPath": "C:\\Users\\Adam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Adam\\Desktop\\Coding\\C##\\Entity\\Recipes\\obj\\",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\Dojo\\portfolio\\portfolio.csproj",
+      "projectName": "portfolio",
+      "projectPath": "C:\\Users\\USER\\Desktop\\Dojo\\portfolio\\portfolio.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\Dojo\\portfolio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Adam\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"

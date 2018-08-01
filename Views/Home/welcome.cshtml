@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Adam's Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsMn-sgzP9unAqV34gMgFUSccqFeiY6fY&callback=initMap" async defer></script>
+    <script src="js/welcome.js"></script>
+    <script src="js/email.js"></script>
+    <script src="js/maps.js"></script>
+    </head>
+    <body>
+    
+<div id="about">
+    <div id="logo">
+        <img src='images/logo.png' alt='logo'>
+        <div id="name">
+            <h3>Adam Richey</h3>
+            <h4>Full Stack Web Developer</h4>
+        </div>
+    </div>
+    <div id="nav">                
+        <a id="nabout">About</a>
+        <a id="ntech">Tech</a>
+        <a id="nwork">Work</a>
+        <a id="ncontact">Contact</a>
+        <a href="https://www.linkedin.com/in/adam-richey/">
+        <img src="images/linkedin.png" alt="link">
+        </a>
+        <a href="https://github.com/AdamRichey">
+        <img src="images/github.png" alt="git">
+        </a>
+        <a href="https://twitter.com/Adam45446993">
+        <img src="images/twitter.png" alt="twitter">
+        </a>
+    </div>
+    <div id="info">
+        <h3>Full Stack Web Developer</h3>
+        <h4>Based out of Chicago, Il and specializing in front-to-back development.</h4>
+        <h4>Whether looking to hire or setting up an online prescence you can contact me <a href='#contact'>here</a></h4>
+        <form action="mailto:ajrichey5@gmail.com" methon="post">
+            <button action="mailto:ajrichey5@gmail.com">Contact</button>
+        </form>
+    </div>
+</div>
+        <div id="tech">
+            <div class="techinfo" id="frameworks">
+            <h2>Frameworks</h2>
+                <h3 class="glyphicon glyphicon-ok"> Django</h3>
+                <h3 class="glyphicon glyphicon-ok"> Flask</h3>
+                <h3 class="glyphicon glyphicon-ok"> Entity</h3>
+                <h3 class="glyphicon glyphicon-ok"> .Net</h3>
+                <h3 class="glyphicon glyphicon-ok"> Dapper</h3>
+                <h3 class="glyphicon glyphicon-ok"> Angular</h3>
+            </div>
+            <div class="techinfo" id="languages">
+                <h2>Languages</h2>
+                <h3 class="glyphicon glyphicon-ok"> C#</h3>
+                <h3 class="glyphicon glyphicon-ok"> Python</h3>
+                <h3 class="glyphicon glyphicon-ok"> Javascript</h3>
+            </div>
+            <div class="techinfo" id="frontend">
+                <h2>Front-End</h2>
+                <h3 class="glyphicon glyphicon-ok"> Bootstrap</h3>
+                <h3 class="glyphicon glyphicon-ok"> HTML5</h3>
+                <h3 class="glyphicon glyphicon-ok"> CSS</h3>
+                <h3 class="glyphicon glyphicon-ok"> JQuery</h3>
+                <h3 class="glyphicon glyphicon-ok"> Angular</h3>
+                <h3 class="glyphicon glyphicon-ok"> Ajax</h3>
+            </div>
+            <div class="techinfo" id="backend">
+                <h2>Back-End</h2>
+                <h3 class="glyphicon glyphicon-ok"> MySql</h3>
+                <h3 class="glyphicon glyphicon-ok"> Postgres</h3>
+                <h3 class="glyphicon glyphicon-ok"> Mongoose</h3>
+                <h3 class="glyphicon glyphicon-ok"> MongoDB</h3>
+                <h3 class="glyphicon glyphicon-ok"> Node</h3>
+            </div>
+        </div>
+        <div class="break">
+            <img src="images/parting.png">
+        </div>
+        <div id="work">
+            <div class="projects" id="p1">
+                <img src="images/cookbox.png" alt="blackjack">
+                    <ul>
+                        <h3>CookBox</h3>
+                        <br>
+                        <li>
+                            <h4> Built in C#/.NetCore</h4>
+                        </li>
+                        <li>
+                            <h4>Login/Registration with Validations</h4>
+                        </li>
+                        <li>
+                            <h4>Watch Friends Activity, Add Recipes, Favorite Recipes</h4>
+                        </li>
+                        <li>
+                            <h4>Add Recipe Ingredients to your Shopping List</h4>
+                        </li>
+                        <li>
+                            <h4>Comment on and Rate Recipes</h4>
+                        </li>
+                    </ul>
+            </div>
+            <div class="break">
+                <img src="images/parting.png">
+            </div>
+            <!--<div class="projects" id="p2">
+                <img src="images/blackjack.png" alt="blackjack">
+                <ul>
+                    <h3>Pet Adoption App</h3>
+                    <br>
+                    <li>
+                        <h4>Built in MEAN</h4>
+                    </li>
+                    <li>
+                        <h4>Put Pets up for Adoption and Adopt Pets</h4>
+                    </li>
+                    <li>
+                        <h4>Add Pet Type, Breed, and Skills With Validations</h4>
+                    </li>
+                    <li>
+                        <h4>Basic Crud Functions</h4>
+                    </li>
+                    <li>
+                        <h4>API Functionality</h4>
+                    </li>
+                </ul>
+            </div>
+            <div class="break">
+                <img src="images/parting.png">
+            </div>
+            -->
+            <div class="projects" id="p3">
+                <img src="images/wishlist.png" alt="blackjack">
+                <ul>
+                    <h3>Gift Wishlist App</h3>
+                    <br>
+                    <li>
+                        <h4>Built in Python/Django</h4>
+                    </li>
+                    <li>
+                        <h4>Post/Share Gifts on Your Wishlist </h4>
+                    </li>
+                    <li>
+                        <h4>Includes Login/Registration with validations</h4>
+                    </li>
+                    <li>
+                        <h4>Basic Crud Functions</h4>
+                    </li>
+                    </ul>
+            </div>
+            <div class="break">
+                <img src="images/parting.png">
+            </div>
+            <div class="projects" id="p4">
+                <img src="images/blackjack.png" alt="blackjack">
+                <ul>
+                    <h3>Blackjack</h3>
+                    <br>
+                    <li>
+                        <h4>Blackjack application built in Javascript, JQuery, HTML5, and CSS</h4>
+                    </li>
+                    <li>                        
+                        <h4>Complete with in game betting</h4>
+                    </li>
+                    <li>
+                        <h4>Card deck algorithm can be applied to any card game application</h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="map"></div>
+        <div id="footer">
+            <div id=contact>
+                <img src="images/me.jpg" alt="portrait">
+                <form action="mailto:ajrichey5@gmail.com" methon="post">
+                    <button action="mailto:ajrichey5@gmail.com">Contact</button>
+                </form>
+            </div>
+            <form action="" method="post" id="contactform">
+                <input type="text" placeholder="Name" name="name">
+                <input type="text" placeholder = "Company" name = "company">
+                <input type="text" placeholder = "Email" name="email">
+                <input type="text" placeholder = "Phone" name="phone">
+                <br>
+                <textarea placeholder = "Message"></textarea>
+                <button type="submit">Submit</button>
+                <div id="success"></div>
+            </form>
+            <div id="convo">
+                <h4>Start a Conversation</h4>
+                <a href="https://www.linkedin.com/in/adam-richey/">
+                    <img src="images/linkedin.png" alt="linkedin">
+                </a>
+                <a href="https://github.com/AdamRichey">
+                    <img src="images/github.png" alt="github">
+                </a>
+                <a href="https://twitter.com/Adam45446993">
+                    <img src="images/twitter.png" alt="github">
+                </a>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,137 @@
+html{
+    min-height: 620px;
+    min-width: 1358px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#about{
+    height: 100vh;
+    background-image: url("../images/ink.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#logo{
+    display: inline-block;
+}
+#logo img{
+    display: inline-block;
+    height: 10vh;
+    vertical-align: top;
+}
+#name{
+    display: inline-block;
+}
+#nav{
+    display: inline-block;
+    margin-left: 40vh;
+}
+#nav img{
+    height: 3vh;
+}
+#nav a{
+    padding: 2vh;
+    text-decoration: none;
+    cursor: pointer;
+}
+#nav a:hover{
+    color: #3aafa9;
+    text-decoration: underline;
+}
+#info{
+    margin-left: 25vh;
+    margin-top: 15vh;
+}
+#tech{
+    height: 55vh;
+    text-align: center;
+
+}
+.techinfo{
+    margin-top: 2vh;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10vh;
+    color: #3aafa9;  
+    text-align: left;
+}
+.techinfo h3{
+    display: block;
+}
+.projects{
+    height: 55vh;
+    margin-left: 20vh;
+    color:#32526e;
+}
+.projects img{
+    height: 35vh;
+    display: inline-block;
+}
+.projects ul{
+    margin-left: 10vh;
+    display: inline-block;
+    text-align: left;
+}
+.break{
+    text-align: center;
+}
+#map{
+    height: 35vh;
+}
+#footer{
+    margin-top: 5vh;
+    padding-left: 5vh;
+}
+#footer button{
+    margin-left: auto;
+    margin-right: auto;
+}
+#contact{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10vh;
+}
+#contact img{
+    display: block;
+    margin-bottom: 2vh;
+    height: 13vh;
+    border-radius: 50%;
+}
+#footer form{
+    display: inline-block;
+}
+#footer textarea{
+    height: 20vh;
+    width: 75vh;
+    display: block;
+    margin-top: 2vh;
+}
+#success{
+    height: 7vh;
+}
+#convo{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30vh;
+    text-align: center
+}
+#convo img{
+    height: 7vh;
+    margin-top: 3vh;
+    cursor: pointer;
+    display: inline-block;
+    padding-left: 5vh;
+}
+
+button{
+    background-color: #cc3598;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+
+}
